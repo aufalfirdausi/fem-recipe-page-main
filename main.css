@@ -1,2 +1,159 @@
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    :root {
+        --color-font:#9a8d6f;
+        --size-font: 15px;
+        --title-points:#6e5c33;
+    }
+
+    body {
+        background-color: rgb(252, 231, 182);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 100vh;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .card-recipe-page {
+        width: 100%;
+        max-width: 510px;
+        height: 100vh;
+        background-color: white;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        border-radius: 15px;
+        padding: 18px;
+    }
+
+    .card-recipe-page img {
+        width: 480px;
+        height: auto;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .desc-big-title {
+        font-size:var(--size-font);
+        color: var(--color-font);
+        position: relative;
+        bottom: 15px;
+    }
+
+    .bg-purp {
+        background-color: rgb(233, 191, 243);
+        padding: 0px 20px 10px 20px;
+        border-radius: 15px;
+    }
+
+    .points-first {
+        color: var(--color-font);
+    }
+
+    .preparation {
+        color: purple;
+        position: relative;
+        left: 20px;
+    }
+
+    .bold-font b{
+        color: black;
+    }
+
+    .title-points h3 {
+        color: var(--title-points);
+    }
+
+    .points-second {
+        font-size: var(--size-font);
+        color: var(--color-font);
+        position: relative;
+        bottom: 20px;
+        
+    }
+
+    .list li {
+        
+        padding-left: 30px;
+    }
+
+    .points-second li {
+        padding: 10px auto 10px auto;
+        margin: 10px auto 10px auto;
+    }
+
+    .points-second hr {
+        color: bisque;
+        padding: 40px auto 10px auto;
+        margin: 40px auto 10px auto;
+    }
+
+    .points-third {
+        color: var(--color-font);
+        font-size: var(--size-font);
+        position: relative;
+        bottom: 10px;
+    }
+
+
+    .ins li {
+        color: var(--title-points);
+    }
+
+    .points-third hr {
+        color: bisque;
+        padding: 40px auto 10px auto;
+        margin: 40px auto 10px auto;
+    }
+
+    .desc-nut {
+        color: var(--color-font);
+        font-size: var(--size-font);
+        position: relative;
+        bottom: 20px;
+    }
+
+
+    .wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .left {
+        gap: 10px;
+        padding: 10px;
+        padding-left: 50px;
+        font-size: var(--size-font);
+        color: var(--color-font);
+    }
+
+    .right {
+        gap: 10px;
+        padding-right: 190px;
+        color: rgb(141, 65, 6);
+    }
+
+    .inform-nutrition {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .inform-nutrition hr{
+        color: grey;
+        opacity: 0.3;
+        padding: 0;
+        margin: 0;
+        
+    }
+    
